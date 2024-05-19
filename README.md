@@ -1,6 +1,6 @@
 # Landing-Page
 Project 2 of the Odin-Project, the task is to create a static landing-page.
-A template to be followed has been provided 
+A wireframe of what the page is to look like has been provided 
 
 ## Template
 ![Landing-page layout](./images/template.png)
