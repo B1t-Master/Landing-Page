@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Poetsen One", sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border: 0;
+    margin-right: auto;
+    gap: 12px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:visited , a:active {
+    color: limegreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.logo{
+    width: 48px;
+    margin-right: auto;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #01656f ;
+    padding-left: 156px;
+    padding-right: 156px;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.image {
+    width: 500px;
+    height:250px;
+    margin-left: auto;
+}
+
+
+ button{
+    width: 110px;
+    height: 30px;
+    margin-top: 16px;
+    text-align: center;
+    border-radius: 4px;
+    background-color:limegreen;
+    color: black;
+    font-weight: 700;
+    font-family: "Poetsen One", sans-serif;
+
+}
+
+h1{
+    margin: 0px;
+    font-size: 48px;
+}
+
+.left div{
+    font-size: 22px;
+}
+
+.hero-banner{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width:475
+
+}
+
+
+.left div{
+    text-align: left;
+}
+
+ .top img{
+    border-radius: 16px;
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3f7fb8;
+ }
