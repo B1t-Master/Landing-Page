@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poetsen+One&display=swap');
 
 body{
     display: flex;
@@ -96,4 +96,83 @@ h1{
     width: 175px;
     height: 175px;
     border: 4px solid #3f7fb8;
+    box-shadow: 16px 4px 16px rgba(0,0,0,.2);
  }
+
+.top{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #a6e3aa;
+ padding: 48px;
+ gap: 48px;
+
+}
+
+h3{
+ margin: 0;
+ font-size:36px;
+
+}
+
+.one{
+    display: flex;
+    gap: 16px;
+}
+
+.macaw,.harpy,.toucan,.humming{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.middle{
+    background-color: #39823e;
+    padding: 96px;
+    border: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+    align-self: flex-start;
+}
+
+.quoter{
+    margin-left: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bottom{
+    background-color:  #a6e3aa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+
+}
+
+.modal{
+    box-sizing: border-box;
+    background-color: #01656f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 70px;
+    width: 950px;
+    height: 108px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+}
+
